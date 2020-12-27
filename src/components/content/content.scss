@@ -1,0 +1,26 @@
+$breakpoint-laptop: 1024px;
+
+
+.content-container {
+    padding: 1rem;
+    
+  @media (min-width: $breakpoint-laptop) {
+    width: 70%;
+  }
+
+    .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+      }
+    .content-explanation {
+        font-size: .6em;
+    }
+  }
